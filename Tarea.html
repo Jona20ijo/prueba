@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea resuelta hecho por Jonatan</title>
+    <script type="text/javascript">
+
+    function dimeTipoMotor() {
+
+        var tipoMotor;
+
+tipoMotor = prompt('Porfavor introduzca el valor de la bomba ');
+tipoMotor = Number(tipoMotor);
+switch(tipoMotor){
+    case 0:
+        alert('No hay establecido un valor definido para el tipo de bomba');
+    break;
+
+    case 1:
+        alert('La bomba es una bomba de agua');
+    break;
+
+    case 2:
+        alert('La bomba es una bomba de gasolina');
+    break;
+        
+    case 3:
+        alert('La bomba es una bomba de hormigón');
+    break;
+
+    case 4:
+        alert('La bomba es una bomba de pasta alimenticia');
+    break;
+
+    default:
+        alert('No existe un valor valido para ese tipo de bomba');  
+}
+        
+    }       
+    </script>
+    <style type="text/css">
+        .boton_1{
+            text-decoration: none;
+            padding: 3px;
+            padding-left: 10px;
+            padding-right: 10px;
+            font-family: helvetica;
+            font-weight: 300;
+            font-size: 25px;
+            font-style: italic;
+            color:cyan;
+            background-color: gray;
+            border-radius: 15px;
+            border: 1px dodgerblue;
+
+         }
+         .boton_1:hover{
+             opacity: 0.6;
+             text-decoration: none;
+         }
+    </style>
+</head>
+<body>
+    <a onclick="dimeTipoMotor()" class="boton_1">Click para introducir valor TIPO MOTOR</a>
+
+    <p><i>Gracias por enseñarnos estos dos sábados anteriores, me gusto mucho como las impartia y a su vez un gusto el conocerte</i></p>
+</body>
+</html>
